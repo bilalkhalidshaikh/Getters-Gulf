@@ -6,6 +6,7 @@ import Philosophy from './components/Philosophy';
 import SolutionMatrix from './components/SolutionMatrix';
 import Leadership from './components/Leadership';
 import Footer from './components/Footer';
+import AIOracle from './components/AIOracle';
 import { Language, View } from './types';
 import { TRANSLATIONS } from './constants';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -96,6 +97,7 @@ const App: React.FC = () => {
       </main>
 
       <Footer t={t} />
+      <AIOracle />
     </div>
   );
 };
